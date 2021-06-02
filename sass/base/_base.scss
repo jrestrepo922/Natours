@@ -1,0 +1,16 @@
+// includes resets and must be a partial. Partial files can be created with an underscore.
+/* normalizing using universal selector */ 
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+/* root font size is set in the html selector. We use 10px because easy to calculate */
+/* default font size is 16px * 62.5 the reason we do this if user wants to soon in so do not use px*/
+html {
+    font-size: 62.5%;
+}
+

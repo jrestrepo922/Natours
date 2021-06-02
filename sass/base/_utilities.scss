@@ -1,0 +1,10 @@
+// utilites are simple code that does something. We will be using utilities for centering 
+
+.u-center-text{ // if the parent element contains an inline element, text-align can be used to center the inline element ;
+    text-align: center;
+}
+
+.u-margin-bottom-small{ margin-bottom: 1.5rem;}
+.u-margin-bottom-medium{ margin-bottom: 4rem;}
+.u-margin-bottom-big{ margin-bottom: 8rem; }
+
