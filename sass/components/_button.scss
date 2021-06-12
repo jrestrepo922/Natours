@@ -38,6 +38,17 @@
         }
     }
 
+
+    &--green{
+        
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-white;
+        }
+    }
+
     /* require content and display property to appear
     is consider a child of the btn element
     Transition all incorporate width and height the second value is how long the transition will take. 
